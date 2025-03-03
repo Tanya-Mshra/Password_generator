@@ -15,16 +15,17 @@ btn.addEventListener('click',()=>{
     let smallLetter = 'abcdefghijklmnopqrstuvwxyz'
     let numberStr = '0123456789'
     let symbolsStr = '~`!@#$%^&*()_+{}[]'
-    let finalStr = ''
+    let finalStr = capitalLetter + smallLetter + numberStr + symbolsStr;
+    let latestPass = ''
 
     
 
     for(let i=0; i<slider.value; i++){
-        console.log(i)
+        latestPass += finalStr[i]
     }
 
 
 
 
-   newPass.innerText = "New Password Generated"
+   newPass.innerText = `${latestPass}`
 })
