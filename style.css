@@ -122,5 +122,49 @@ button{
 }
 
 @media screen and (min-width:320px) and (max-width: 480px){
-    
+    .main, .firstDiv, .secondDiv{
+        width: 80%;
+        height: 80%;
+    }
+    #copyBtn{
+       padding-top: 3px;
+       padding-left: 10px;
+    }
+    #newPass{
+        width: 100%;
+    }
+    #rangeValue{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    #range{
+        width: 100%;
+    }
+    .alpha1{
+        padding-top: 10px;
+        gap: 200px;
+        font-size: 20px;
+    }
+    .alpha2{
+        padding-bottom: 10px;
+        gap: 200px;
+        font-size: 20px;
+    }
+    .numeric{
+        padding-bottom: 10px;
+        gap: 200px;
+        font-size: 20px;
+    }
+    #number, #symbol{
+        width: 30px;
+        height: 20px;
+    }
+    .symbol{
+        padding-bottom: 10px;
+        gap: 200px;
+        font-size: 20px;
+    }
+    .main{
+        padding-bottom: 10px;
+    }
 }
